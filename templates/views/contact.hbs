@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+{{>style}}
+</head>
+<body>
+  
+{{>nav}}
+
+<section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-8">
+                    <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                        <div class="card-body p-5 text-center">
+                            <h3 class="mb-5">Contact Us</h3>
+                            <div class="form-outline mb-2">
+                                <input type="email" id="contactname" class="form-control form-control-lg" />
+                                <label class="form-label" for="contactname">Name</label>
+                            </div>
+                            <div class="form-outline mb-2">
+                                <input type="text" id="contactEmail" class="form-control form-control-lg" />
+                                <label class="form-label" for="contactEmail">Email</label>
+                            </div>
+                            <div class="form-outline mb-2">
+                                <textarea class="form-control form-control-lg" id="contactMessage" rows="3"></textarea>
+                                <label class="form-label" for="contactMessage">Message</label>
+                            </div>
+                            <div class="form-outline mb-2">
+                                <button class="btn btn-primary btn" id="submitMessage" type="submit">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="/js/message.js"></script>
+</html>
