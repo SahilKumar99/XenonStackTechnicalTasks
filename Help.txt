@@ -9,7 +9,6 @@ npm install -g nodemon // to install it globally
 
 BSF/public/js
 BSF/public/css
-added some bakchodi
 
 now our task is to add tell the express taht we have some static web pages
 
